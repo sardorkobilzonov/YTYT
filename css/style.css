@@ -1,0 +1,664 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+body {
+  font-family: "Montserrat" sans-serif;
+}
+
+header {
+  background: #fefeff;
+  padding-top: 17px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-items {
+  padding-left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-item {
+  /* // Чему вы научитесь */
+  color: #22253b;
+  font-size: 13px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 13.57px;
+  word-wrap: break-word;
+}
+.nav-item:hover {
+  color: #f15525;
+}
+.par2 {
+  /* // Регистрация */
+  color: #3c3e50;
+  font-size: 13px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 13.57px;
+  word-wrap: break-word;
+}
+.par3 {
+  /* // Войти */
+  color: white;
+  font-size: 13px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 13px;
+  word-wrap: break-word;
+}
+.btn {
+  padding: 9px 16px;
+  width: 100%;
+  height: 100%;
+  background: #38bff2;
+  border-radius: 82px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.par1 {
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.hero {
+  padding: 82px 120px;
+  background-color: #f9f8fd;
+}
+.school {
+  /* // Школа */
+
+  color: #22253b;
+  font-size: 44px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 46px;
+  word-wrap: break-word;
+}
+
+span {
+  color: #f15525;
+}
+
+.par4 {
+  margin-top: 32px;
+  background-color: #dddddd;
+  width: 365px;
+  height: 1px;
+}
+
+.test {
+  /* // Пройдите тестирование, чтобы получить доступ к бесплатным вводным урокам */
+
+  padding-top: 16px;
+  width: 387px;
+  color: #22253b;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 23px;
+  word-wrap: break-word;
+}
+
+.btn2 {
+  /* // Пройти тестирование */
+  color: white;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 17.4px;
+  word-wrap: break-word;
+  margin-right: 300px;
+  padding: 9px 16px;
+  width: 100%;
+  height: 100%;
+  background: #38bff2;
+  border-radius: 82px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.btn3 a {
+  /* // Пройти тестирование */
+  color: white;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 17.4px;
+  word-wrap: break-word;
+}
+.btn3 {
+  margin-top: 16px;
+  padding: 27px 46px;
+  display: flex;
+  width: 100%;
+  max-width: 321px;
+  height: 100%;
+  background: #f15525;
+  border-radius: 82px;
+}
+.parts {
+  display: flex;
+  align-items: center;
+}
+.parts2 {
+  padding-left: 100px;
+}
+
+.par8 {
+  background-color: #eaf2f5;
+  border-radius: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.par6 {
+  /* // Какие технологии вы изучите: */
+  padding-top: 100px;
+  padding-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  color: #22253b;
+  font-size: 46px;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 46px;
+  word-wrap: break-word;
+}
+
+.img {
+  padding-left: 100px;
+  padding-top: 42px;
+  padding-bottom: 1.15em;
+}
+.p1 {
+  /* // Язык программирования Python */
+  width: 318px;
+  color: white;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 46px;
+  word-wrap: break-word;
+  /* width: 100%; */
+  height: 100%;
+  background: #5096ff;
+  border-radius: 44px;
+  padding: 8px 20px;
+}
+.p2 {
+  /* // Сети */
+  margin-left: 20px;
+  max-width: 80px;
+  padding-right: 100px;
+  width: 100%;
+  height: 100%;
+  background: #ffb359;
+  border-radius: 40px;
+  padding: 12px 20px;
+  color: white;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 46px;
+  word-wrap: break-word;
+}
+.par9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 106px;
+  /* padding-left: 136px; */
+}
+
+.par10 {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 12px;
+  padding-left: 90px;
+}
+
+.p3 {
+  /* // Базы данных */
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 46px;
+  word-wrap: break-word;
+  max-width: 151px;
+  width: 100%;
+  height: 100%;
+  background: #ff6f50;
+  border-radius: 44px;
+}
+
+.p4 {
+  /* // Фреймворки Flask и Django */
+  width: 350px;
+  margin-left: 20px;
+  padding: 0px 20px;
+  text-align: center;
+  height: 100%;
+  background: #4bd071;
+  border-radius: 44px;
+  color: white;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 46px;
+  word-wrap: break-word;
+}
+
+.par11 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+
+  margin-top: 12px;
+  padding-left: 90px;
+}
+
+.p5 {
+  /* // Отладка и тестирование */
+  padding: 0 20px;
+  max-width: 245px;
+  height: 100%;
+  background: #50c0ff;
+  border-radius: 44px;
+
+  color: white;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 46px;
+  word-wrap: break-word;
+}
+
+.p6 {
+  /* // Docker */
+  width: 98px;
+  height: 100%;
+  background: #4b77b9;
+  border-radius: 44px;
+  color: white;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 46px;
+  word-wrap: break-word;
+}
+
+.p7 {
+  /* // Git */
+  width: 64px;
+  height: 100%;
+  background: #af93ff;
+  border-radius: 44px;
+  color: white;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 46px;
+  word-wrap: break-word;
+}
+
+.title {
+  padding-top: 32px;
+  padding-left: 146px;
+  /* // Это необходимый минимум для современного backend-разработчика */
+  color: #22253b;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 25px;
+  word-wrap: break-word;
+}
+
+.par12 {
+  /* // Обучение в YtYt – это удобно и результативно */
+  padding-bottom: 40px;
+  padding-top: 100px;
+  text-align: center;
+  color: #22253b;
+  font-size: 46px;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 46px;
+  word-wrap: break-word;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 82px;
+}
+
+.cards2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 82px;
+  padding-top: 40px;
+}
+
+.card {
+  width: 272px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background: #eaf2f5;
+  border-radius: 30px;
+}
+
+.par14 {
+  max-width: 192px;
+  width: 100%;
+
+  /* // Огромное количество практики */
+  color: #22253b;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 18.5px;
+}
+
+.par15 {
+  padding-bottom: 30px;
+}
+
+.par16 {
+  margin-top: 60px;
+  background-color: #f9f8fd;
+}
+
+.par17 {
+  /* // Стоимость обучения */
+  padding-top: 100px;
+  text-align: center;
+  color: #22253b;
+  font-size: 46px;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 46px;
+  word-wrap: break-word;
+}
+
+.par18 {
+  padding-bottom: 121px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 77px;
+}
+
+.par19 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.par20 {
+  padding-top: 100px;
+}
+.par21 {
+  width: 400px;
+  padding: 40px 67px;
+  background: #eaf2f5;
+  border-radius: 40px;
+}
+
+.par22 {
+  padding: 40px 80px;
+  width: 780px;
+  background: #eaf2f5;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+
+.par23 {
+  /* // Помощь и поддержка */
+  color: #22253b;
+  font-size: 32px;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 30px;
+  word-wrap: break-word;
+}
+
+.par24 {
+  /* // Если в процессе обучения возникнут сложности, вы всегда сможете задать вопрос своему наставнику. */
+  color: #22253b;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 25px;
+  word-wrap: break-word;
+}
+
+.par25 {
+  /* // Раз в несколько уроков вы будете получать большое задание, которое нужно будет сдавать на проверку код-ревьюеру. Он внимательно изучит ваш код, найдет ошибки и поможет вам стать лучше. */
+  color: #22253b;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 25px;
+  word-wrap: break-word;
+}
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.par26 {
+  width: 400px;
+  padding: 16px 72px;
+  background: #eaf2f5;
+  border-radius: 40px;
+}
+.all2 {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.par27 {
+  padding: 100px 120px;
+  background-color: #f9f8fd;
+}
+
+.par28 {
+  padding: 64px 50px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 1160px;
+  background: #eaf2f5;
+  border-radius: 30px;
+}
+
+.btn4 a {
+  /* // Пройти тестирование */
+  color: white;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 17.4px;
+  word-wrap: break-word;
+}
+.btn4:hover {
+  background-color: #f0744f;
+}
+.btn3:hover {
+  background-color: #f0744f;
+}
+.btn4 {
+  margin-top: 16px;
+  padding: 27px 46px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  max-width: 321px;
+  background: #f15525;
+  border-radius: 82px;
+}
+.par30 {
+  background-color: #f9f8fd;
+}
+
+.par31 {
+  padding-top: 100px;
+  padding-left: 127px;
+  display: flex;
+  gap: 18px;
+}
+
+.school2 {
+  /* // Школа программирования */
+  color: #8e8e8e;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 19px;
+  word-wrap: break-word;
+}
+
+.par32 {
+  padding-left: 124px;
+  padding-top: 40px;
+  display: flex;
+  gap: 16px;
+}
+
+.svg:hover {
+  fill: #f15525;
+}
+
+.par34 {
+  /* // Чему вы научитесь
+  // Процесс обучения
+  // Стоимость
+  // Контакты
+  // Регистрация */
+  color: #22253b;
+  font-size: 13px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 13.57px;
+  word-wrap: break-word;
+}
+.par34:hover {
+  color: #f15525;
+}
+.all3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.par33 {
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.par35 {
+  padding-top: 60px;
+}
+.par36 {
+  /* // +7 (499) 348 93 96 */
+  color: #38bff2;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 23px;
+  word-wrap: break-word;
+}
+.par37 {
+  /* // info@ytyt.ru */
+  color: #22253b;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 23px;
+  word-wrap: break-word;
+}
+.par38 {
+  /* // ИП Умаров Т. А.
+<br/>ИНН 745216229809 ОГРНИП 315745200001358 */
+  color: #8e8e8e;
+  font-size: 13px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 23px;
+  word-wrap: break-word;
+}
+.parte2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 136px;
+}
+.par39 {
+  width: 1260px;
+  height: 1px;
+  background-color: #d8d8d8;
+  margin-top: 56px;
+  margin-left: 124px;
+}
+.par41 {
+  /* // Политика конфиденциальности */
+  color: #8e8e8e;
+  font-size: 16px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 23px;
+  word-wrap: break-word;
+}
+.par40 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 308px;
+}
+.par32 svg:hover {
+  background-color: #f15525;
+}
